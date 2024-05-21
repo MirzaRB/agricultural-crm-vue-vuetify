@@ -1,0 +1,33 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://next.vuetifyjs.com/features/sass-variables/`
+// @use "vuetify" with (
+//   $color-pack: false
+// );
+
+.bg-white {
+  color: #2d3540 !important;
+}
+
+.font-weight-semibold {
+  font-weight: 600 !important;
+}
+
+h1,
+h2 {
+  font-weight: 700 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+  user-select: none;
+}
+
+.v-field--variant-solo {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
